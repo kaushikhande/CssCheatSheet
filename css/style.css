@@ -8,10 +8,49 @@ body{
     font: 16px, normal, Arial, Helvetica, sans-serif;
     line-height: 1.6em;
     margin: 0px;
+    margin-top: 20px;
+    margin: 20px 0px;
 }
 .container{
     width: 80%;
     margin: auto;
 
 }
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+.box-1{
+    background-color:#333; 
+    color:#fff;
+    border-top:5px red solid;
+    border-right:5px red solid;
+    border-bottom:5px red solid;
+    border-left:5px red solid;
+    border-width:3px;
+    border-top-style: dotted;
+    padding:20px;
+    margin-top: 20px;
+    margin: 20px 0px;
+    
+    
+}
+.box-1 h2{
+    font-family: Tohoma;
+    font-weight:800px;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+    text-align:center;
+    letter-spacing:0.5px;
+    word-spacing:1px;
+}
+
 
