@@ -7,11 +7,11 @@ _this is also italic_
 **this is bold**
 __this is also bold__
 # Code Snippet
-'''javascript
+```javascript
 function test(){
     console.log('No Spaces');
 }
-'''
+```
 # Unordered List
 * Item1
 * Item2
@@ -22,4 +22,4 @@ function test(){
 # Task List
 - [x] Css style sheet Reference Added
 - [x] Container Added
-- [] Boxes
+- [ ] Boxes
