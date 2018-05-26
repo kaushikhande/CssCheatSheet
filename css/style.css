@@ -53,4 +53,9 @@ a:active{
     word-spacing:1px;
 }
 
+.box-2 {
+    border: 3px red dotted;
+    padding: 20px;
+    margin: 20px 0px;
+}
 
