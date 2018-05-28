@@ -7,26 +7,38 @@ body{
     /*same as above*/
     font: 16px, normal, Arial, Helvetica, sans-serif;
     line-height: 1.6em;
-    margin: 0px;
-    margin-top: 20px;
-    margin: 20px 0px;
+    /*margin: 0px;*/
+    /*margin-top: 20px;
+    margin-bottom:20px;*/
+    margin: 20px 0px 0px 0px;
 }
+
 .container{
     width: 80%;
     margin: auto;
-
 }
 
 a{
     text-decoration: none;
     color:#000;
 }
+
 a:hover{
     color:red;
 }
+
 a:active{
     color:green;
 }
+
+.button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:0;
+
+}
+
 .box-1{
     background-color:#333; 
     color:#fff;
@@ -39,9 +51,8 @@ a:active{
     padding:20px;
     margin-top: 20px;
     margin: 20px 0px;
-    
-    
 }
+
 .box-1 h2{
     font-family: Tohoma;
     font-weight:800px;
@@ -59,3 +70,63 @@ a:active{
     margin: 20px 0px;
 }
 
+.my-form{
+    padding:20px;
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type='text'], .form-group textarea{
+    padding:8px;
+    width:100%;
+}
+
+.block{
+    float:left;
+    width:33.33%;
+    padding:5px;
+    border: 1px solid #ccc;
+    box-sizing:border-box;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    padding:20px;
+    box-sizing:border-box;
+}
+#side-block{
+    background-color:#333;
+    float:right;
+    width:30%;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+   
+}
+
+.my-list li:first-child{
+    background:red;
+}
+
+.my-list li:last-child{
+    background:blue;
+}
+
+.my-list li:nth-child(3){
+    background:#456;
+}
+
+.my-list li:nth-child(even){
+    background:#123;
+}

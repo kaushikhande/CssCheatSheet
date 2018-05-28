@@ -22,4 +22,7 @@ function test(){
 # Task List
 - [x] Css style sheet Reference Added
 - [x] Container Added
-- [ ] Boxes
+- [x] Boxes Added
+- [x] Main block and SideBar added
+- [x] List Added
+- [ ] A sample website
