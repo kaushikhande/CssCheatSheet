@@ -25,4 +25,4 @@ function test(){
 - [x] Boxes Added
 - [x] Main block and SideBar added
 - [x] List Added
-- [ ] A sample website
+- [x] A sample website
