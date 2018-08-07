@@ -27,4 +27,4 @@ function test(){
 - [x] List Added
 - [x] A sample website
 ## Sample website image
-![Sample website](/images/sample.png)
+![Sample website](/MyWebsite/images/sample.png)
