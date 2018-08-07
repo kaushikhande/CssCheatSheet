@@ -26,3 +26,5 @@ function test(){
 - [x] Main block and SideBar added
 - [x] List Added
 - [x] A sample website
+## Sample website image
+![Sample website](/images/sample.png)
